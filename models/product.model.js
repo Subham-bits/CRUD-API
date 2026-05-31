@@ -23,6 +23,10 @@ const ProductSchema = mongoose.Schema(
       type: String,
       required: false,
     },
+    gender: {
+      type: String,
+      required: true,
+    },
   },
   {
     timestamps: true,
